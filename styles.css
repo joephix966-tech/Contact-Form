@@ -1,0 +1,58 @@
+body {
+    background-color: cyan;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2em;
+    width: 300px;
+    max-width: 100%;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: blue;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkmagenta;
+}
+
+button:focus {
+    background-color: blueviolet;
+}
